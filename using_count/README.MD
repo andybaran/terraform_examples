@@ -23,4 +23,4 @@ The first line of code creates a null_resource.  We then setup our count meta-ar
 
 In a more realistic use case we might have a string variable called `environment`.  Maybe if the environment is production we want to create 5 resources but only a single resource if it's anything other than production:
 
-`count = var.create == 'production' ? "1" : "5"`
+`count = var.environment == "production" ? "1" : "5"`
