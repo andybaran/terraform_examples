@@ -5,10 +5,9 @@ This quick example uses a [Null](https://www.terraform.io/docs/providers/null/re
 
 At apply you'll be asked to provide a value for the boolean variable `create`.  Let's breakdown what we're using this for.  
 
-```resource "null_resource" "nothing" {
-    
+```
+resource "null_resource" "nothing" {
     count = var.create == false ? "0" : "1" 
-    
     provisioner  "local-exec" {
         command = "echo 'True...lets create something'"
     } 
