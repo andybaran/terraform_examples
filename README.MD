@@ -4,7 +4,7 @@ Repo for small examples of HCL 0.12 in Terraform.  All of these examples assume 
 
 | Folder       | Notes       |
 | ------------- |-------------|
-| using_count     | Simple example of using the [count meta argument](https://www.terraform.io/docs/configuration/resources.html#count-multiple-resource-instances-by-count) with an [input variable](https://www.terraform.io/docs/configuration/variables.html). |
+| [using_count](https://github.com/andybaran/terraform_examples/tree/master/using_count)     | Simple example of using the [count meta argument](https://www.terraform.io/docs/configuration/resources.html#count-multiple-resource-instances-by-count) with an [input variable](https://www.terraform.io/docs/configuration/variables.html). |
 
 
 
